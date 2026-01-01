@@ -1,0 +1,63 @@
+{
+    "Model Information": {
+        "Model name": "dmis-lab/biobert-base-cased-v1.2",
+        "Number of model parameters": 108311810,
+        "Number of trainable parameters": 108311810
+    },
+    "Dataset Information": {
+        "Training set size": 240,
+        "Test set size": 60
+    },
+    "Tokenizer Settings": {
+        "Truncation setting": true,
+        "Padding setting": "max_length",
+        "Max length": 512
+    },
+    "Training Hyperparameters": {
+        "Number of training epochs": 3,
+        "Per-device training batch size": 8,
+        "Per-device eval batch size": 8,
+        "Number of evaluation steps": 1,
+        "Output directory": "runs\\20251128-144714\\checkpoints",
+        "Save strategy": "steps",
+        "Save steps": 30,
+        "Logging directory": "runs\\20251128-144714\\logs",
+        "Disable tqdm": false,
+        "Logging steps": 1,
+        "Report to": "tensorboard",
+        "Learning rate": "Default",
+        "Optimiser": "Default",
+        "Weight decay": "Default",
+        "Warmup steps": "Default",
+        "Learning rate scheduler type": "Default",
+        "Callbacks": [
+            "EarlyStoppingCallback"
+        ],
+        "Seed": 42,
+        "Load best model at end": true,
+        "Metric for best model": "eval_loss",
+        "Greater is better": false,
+        "Early stopping patience": 12
+    },
+    "Training Results": {
+        "Evaluation results": {
+            "eval_loss": 0.17636343836784363,
+            "eval_accuracy": 0.9666666666666667,
+            "eval_precision": 0.96875,
+            "eval_recall": 0.9666666666666667,
+            "eval_f1": 0.9666295884315907,
+            "eval_runtime": 20.6489,
+            "eval_samples_per_second": 2.906,
+            "eval_steps_per_second": 0.387,
+            "epoch": 1.7666666666666666
+        },
+        "Training time and speed": {
+            "train_runtime": 1840.6677,
+            "train_samples_per_second": 0.391,
+            "train_steps_per_second": 0.049,
+            "total_flos": 111559087472640.0,
+            "train_loss": 0.460748083827982,
+            "epoch": 1.7666666666666666
+        }
+    }
+}
