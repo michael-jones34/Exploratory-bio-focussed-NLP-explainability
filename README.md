@@ -54,15 +54,11 @@ BoW model: included in models/BoW/
 
 
 
-BioBERT model: not included; to run BioBERT cells, place the trained model in:
+BioBERT model: not included; to run BioBERT cells, please download the model from https://drive.google.com/file/d/1cGQbbr381Di96oxDf\_0dePD5axTVFrc8/view?usp=sharing and place in:
 
 
 
 models/BioBERT/
-
-
-
-and make sure it contains the necessary model files (model.safetensors, config.json, etc.).
 
 
 
