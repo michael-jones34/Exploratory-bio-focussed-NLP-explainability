@@ -54,7 +54,7 @@ BoW model: included in models/BoW/
 
 
 
-BioBERT model: not included; to run BioBERT cells, please download the model from https://drive.google.com/file/d/1cGQbbr381Di96oxDf\_0dePD5axTVFrc8/view?usp=sharing and place in:
+BioBERT model: not included (413 MB file size); to run BioBERT cells, please download the model from https://drive.google.com/file/d/1cGQbbr381Di96oxDf\_0dePD5axTVFrc8/view?usp=sharing and place in:
 
 
 
