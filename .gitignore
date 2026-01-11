@@ -22,3 +22,6 @@ env/
 *.bin
 *.pt
 *.ckpt
+
+# BioBERT model
+models/BioBERT/model.safetensors
