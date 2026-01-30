@@ -36,7 +36,7 @@ Required columns: `id`, `title`, `abstract`, `label`
 - BioBERT model: not included due to size (~413 MB)
 
 To run BioBERT-related cells, download the model from:  
-https://drive.google.com/file/d/1cGQbbr381Di96oxDf_0dePD5axTVFrc8/view?usp=sharing
+https://drive.google.com/file/d/1cGQbbr381Di96oxDf_0dePD5axTVFrc8/view?usp=sharing  
 and place it in:  
 `models/BioBERT/`
 
