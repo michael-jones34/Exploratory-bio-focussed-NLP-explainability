@@ -10,10 +10,10 @@ This project explores model explainability in NLP by comparing how different exp
 
 **Contents**
 
-data/         – Input dataset (not included)
-models/       – Trained models (BoW included, BioBERT excluded)
-notebooks/    – Main analysis and experiments
-report/       – Full written report and figures
+data/         – Input dataset (not included)  
+models/       – Trained models (BoW included, BioBERT excluded)  
+notebooks/    – Main analysis and experiments  
+report/       – Full written report and figures  
 results/       - Results used for figures and tables
 
 **Environment**
