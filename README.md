@@ -2,7 +2,7 @@
 
 **Abstract**
 
-This project explores model explainability in NLP by comparing how different explainability methods behave when applied to both simple and complex text classification models. Using a manually labelled dataset of biomedical abstracts, I train a Bag-of-Words logistic regression model and a fine-tuned BioBERT model to predict whether an abstract is pathogen-related. I then apply SHAP, LIME, and gradient-based attribution methods to analyse what each model learns and how intuitive and stable the resulting explanations are. The results show that increased model complexity does not necessarily yield better performance or more meaningful explanations, highlighting important tradeoffs between accuracy, explainability, and computational cost in high-stakes domains such as biosecurity.
+This project explores model explainability in NLP by comparing the results of different explainability methods when applied to both simple and complex text classification models. Using a manually labelled dataset of biomedical abstracts, I train a Bag-of-Words logistic regression model and a fine-tuned BioBERT model to predict whether an abstract is pathogen-related. I then apply SHAP, LIME, and gradient-based attribution methods to analyse what each model learns and how intuitive and stable the resulting explanations are. The results show that increased model complexity does not necessarily yield better performance or more meaningful explanations, highlighting important tradeoffs between accuracy, explainability, and computational cost in high-stakes domains such as biosecurity.
 
 **Full technical report**
 
